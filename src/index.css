@@ -14,6 +14,5 @@
 }
 
 .zoom-in {
-  overflow: visible;
   animation: zoomIn 1600ms ease-in-out;
 }

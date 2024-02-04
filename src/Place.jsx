@@ -10,7 +10,7 @@ export default function Place({ place, onSelect, selectPlace, isAnimation }) {
     <div
       className={`${
         place?.id === selectPlace.id
-          ? `h-[100vh] w-[100vw] ${isAnimation && "zoom-in !overflow-hidden"}  `
+          ? `h-[100vh] w-[100vw] ${isAnimation && "zoom-in "}  `
           : `${position} absolute group`
       }`}
     >

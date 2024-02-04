@@ -36,7 +36,7 @@ const App = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       {isAnimation ? (
         <Place
           place={selectPlace}
