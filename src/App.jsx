@@ -28,6 +28,10 @@ const App = () => {
   const [isAccordion, setIsAccordion] = useState(false);
 
   const handleSelectPlace = (place) => {
+    if (selectPlace.id === place.id) {
+      return;
+    }
+
     setIsAnimation(true);
     setTimeout(() => {
       setSelectPlace(place);
